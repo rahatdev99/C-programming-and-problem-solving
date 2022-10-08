@@ -2,12 +2,12 @@
 
 int main()
 {
-    int a,b,h,area;
+    int a,b,h;
     scanf("%d %d %d",&a,&b,&h);
 
-    area = (a + b) * h / h;
+    int trapezoid = (a+b) / 2 * h;
 
-    printf("%d\n",area);
+    printf("%d\n",trapezoid);
 
     return 0;
 }
